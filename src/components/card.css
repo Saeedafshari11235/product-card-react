@@ -28,9 +28,28 @@
     }
 }
 
+.num-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
 .title-container {
     display: flex;
     justify-content: flex-start;
     width: 100%;
     text-align: left;
+}
+
+.score-container {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+}
+
+.price-container {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
 }
