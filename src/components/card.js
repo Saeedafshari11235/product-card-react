@@ -20,7 +20,7 @@ export default function Card() {
         </div>
       </div>
       <div className="buttons-container">
-        <button>button</button>
+        <button>Add to cart</button>
       </div>
     </div>
   );
