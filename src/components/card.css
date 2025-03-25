@@ -13,11 +13,24 @@
     border-radius: 10px;
     margin: 15px;
     transition: 0.3s;
-
-    /* Test-style */
-    border: solid 1px red;
+    border: solid 1px #ddd;
 }
 
 .card:hover {
-    box-shadow: 0px 10px 30px;
+    box-shadow: 0px 10px 30px -20px;
+}
+
+.image-container {
+    position: relative;
+    width: 20rem;
+    img {
+        width: 100%;
+    }
+}
+
+.title-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    text-align: left;
 }

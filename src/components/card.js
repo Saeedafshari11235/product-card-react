@@ -1,22 +1,21 @@
 import React from 'react'
+import productPic from './product_pic.webp'
 import './card.css'
 
 export default function Card() {
   return (
     <div className='card'>
         <div className='image-container'>
-            <img src='' alt=''/>
+            <img src={productPic} alt='product'/>
         </div>
-        <div className='header-container'>
-            <h4>header</h4>
+        <div className='title-container'>
+            <h4>headphone headphone headphone</h4>
         </div>
-        <div className='category-container'>
-            <span>category</span>
+        <div className='score-container'>
+            <span>5⭐</span>
         </div>
-        <div className='description-container'>
-            <p>
-                description
-            </p>
+        <div className='price-container'>
+            <span>{10_000_000} T</span>
         </div>
         <div className='buttons-container'>
             <button>button</button>
