@@ -58,7 +58,7 @@
 .buttons-container {
     width: 100%;
     margin-top: 1rem;
-    button {
+    button{
         width: 100%;
         padding: 10px;
         border: solid 2px #2c95f7;
@@ -69,10 +69,20 @@
         color: #fff;
         transition: 0.3s;
     }
+    button.quantity {
+        width: 20%;
+        margin: 0 15px;
+    }
+    button.buy{
+        margin: 15px 0;
+    }
 
     button:hover {
         border:solid 2px #2c95f7;
         background-color: #fff;
         color: #2c95f7;
     }
+}
+.hidden{
+    display: none;
 }
