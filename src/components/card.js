@@ -38,7 +38,7 @@ export default class Card extends React.Component {
 
   render() {
     return (
-      <div className="card">
+      <div className="card" key={this.props.id}>
         <div className="image-container">
           <img src={productPic} alt="product" />
         </div>
